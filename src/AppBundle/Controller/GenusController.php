@@ -15,14 +15,14 @@ use Symfony\Component\HttpFoundation\Response;
 class GenusController
 {
     /**
-     * @Route("/lucky/number")
+     * @Route("/lucky/number/{max}")
      */
-    public function numberAction()
+    public function numberAction($max)
     {
-        $number = mt_rand(0, 100);
+        $number = mt_rand(0, $max);
 
         return new Response(
-            '<html><body>Lucky number: ' . $number . '</body></html>'
+            '<html><body>Lucky number: '.$number.'</body></html>'
         );
     }
 }

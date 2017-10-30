@@ -1,3 +1,7 @@
+nemo_test:
+    resource: "@NemoTestBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
