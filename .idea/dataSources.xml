@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="symfony@localhost" uuid="36ae8fe7-e13e-44a6-a3f9-75d9e4332441">
+    <data-source source="LOCAL" name="symfony@127.0.0.1" uuid="36ae8fe7-e13e-44a6-a3f9-75d9e4332441">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/symfony</jdbc-url>
+      <jdbc-url>jdbc:mysql://127.0.0.1:8000/symfony</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

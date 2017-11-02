@@ -3,6 +3,7 @@
 namespace Nemo\TestBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Post
@@ -39,6 +40,9 @@ class Post
      * @var string
      *
      * @ORM\Column(name="content", type="text")
+     *  @Assert\Length(
+     *      min = 20
+     * )
      */
     private $content;
 

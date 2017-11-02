@@ -1,4 +1,4 @@
 services:
-#    nemo_test.example:
-#        class: Nemo\TestBundle\Example
-#        arguments: ["@service_id", "plain_value", "%parameter%"]
+    nemo_test.notifer: // имя сервиса должно быть уникальным
+        class: Nemo\TestBundle\Example // полный путь к классу-сервису
+        arguments: ["@service_id", "plain_value", "%parameter%"]
